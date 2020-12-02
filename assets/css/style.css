@@ -1,0 +1,224 @@
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+	max-width: 800px;
+}
+
+
+.header-content {
+	padding-top: 100px;
+
+}
+
+h5 {
+	font-weight: 800;
+}
+
+p {
+	font-weight: 100;
+	color: #5e5e5e;
+}
+
+a {
+	color: #5e5e5e;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+	color: #ff0000;
+	text-decoration:none;
+}
+
+.a-btn:hover {
+	color: white;
+}
+
+.a-blog {
+	color:  #ffe30bec;
+}
+
+.a-blog:hover {
+	color: white;
+}
+
+.blog-btn {
+	border: none;
+	padding: 5px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 14px;
+	background-color :#ffe10b42;
+	color: #ffe30bec;
+}
+
+.blog-btn:hover {
+	color: white;
+	background-color : #84d6f5;
+} 
+
+
+.navbar-brand{
+	font-weight: 700;
+	color: #fff !important;
+}
+
+.nav-link {
+	text-align: center;
+	color: #fff !important;
+}
+
+.navbar-light .navbar-toggler {
+	color: #fff !important;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 100' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.bg-light {
+	box-shadow: 1px 1px 10px #00000047;
+	background-color: #5ac5ed !important;
+}
+
+
+.btn:hover {
+  color: #fff;
+  background-color: #a5dcf1;
+  border-color: #a5dcf1;
+
+}
+
+.btn {
+	border-radius: 4px;
+}
+
+
+.content {
+	padding-top: 50px;
+}
+
+.main-content {
+	padding-top: 20px;
+}
+
+.icon-content {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.icon-content2 {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	border-radius: 50rem !important;
+}
+
+.img-about {
+	width: 300px;
+	height: 300px;
+}
+
+.card {
+	border : none;
+	box-shadow: 1px 4px 10px rgb(0 0 0 / 25%);
+}
+
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 28px;
+}
+
+@media only screen and (max-width: 300px) {
+
+	.navbar-brand {
+		font-size: 9px;
+	}
+
+	h5 {
+		font-size: 14px;
+	}
+
+	p {
+		font-size: 10px;
+	}
+
+	.a-btn {
+		font-size: 7px;
+	}
+
+	.blog-btn {
+		font-size: 8px;
+	}
+
+	.icon-content {
+		width: 20px;
+		height: 20px;
+	}
+
+	.img-about {
+		width: 100px;
+		height: 100px;
+	}
+
+	.list {
+		font-size: 8px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+	.navbar-brand {
+		font-size: 15px;
+	}
+
+	h5 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	.a-btn {
+		font-size: 12px;
+	}
+
+	.blog-btn {
+		font-size: 13px;
+	}
+
+	.icon-content {
+		width: 50px;
+		height: 50px;
+	}
+
+	.img-about {
+		width: 200px;
+		height: 200px;
+	}
+
+	.list {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+
+	.navbar-brand {
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (min-width: 900px) {
+
+	.list {
+		font-size: 17px;
+	}
+}
